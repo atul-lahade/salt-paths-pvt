@@ -1,3 +1,15 @@
+import OurProducts from "./OurProducts";
+import Testimonials from "./Testimonials";
+import VideoPlayer from "./VideoPlayer";
+import WhatWeDo from "./WhatWeDo";
+
 export default function Home() {
-  return <h1>Home Page</h1>;
+  return (
+    <div className="flex flex-col font-poppins min-h-screen">
+      <VideoPlayer />
+      <WhatWeDo/>
+      <OurProducts/>
+      <Testimonials />
+    </div>
+  );
 }
