@@ -29,7 +29,7 @@ export default function Navbar() {
                   href="/"
                   className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 >
-                  <span className="text-lg">Home</span>
+                  <span className="text-lg font-bold">Home</span>
                 </a>
               </li>
               <li className="p-2 sm:p-3 xl:p-4">
@@ -37,7 +37,7 @@ export default function Navbar() {
                   href="/about"
                   className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 >
-                  <span className="text-lg">About Us</span>
+                  <span className="text-lg font-bold">About Us</span>
                 </a>
               </li>
               <li className="p-2 sm:p-3 xl:p-4">
@@ -45,7 +45,7 @@ export default function Navbar() {
                   href="/products"
                   className="flex items-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 >
-                  <span className="text-lg">Products</span>
+                  <span className="text-lg font-bold">Products</span>
                 </a>
               </li>
               <li className="p-2 sm:p-3 xl:p-4">
@@ -53,7 +53,7 @@ export default function Navbar() {
                   href="/contact"
                   className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 >
-                  <span className="text-lg">Contact Us</span>
+                  <span className="text-lg font-bold">Contact Us</span>
                 </a>
               </li>
             </ul>
