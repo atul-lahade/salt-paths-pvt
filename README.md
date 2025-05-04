@@ -1,54 +1,53 @@
-# React + TypeScript + Vite
+# Salt Path Pvt. Ltd. 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Your Gateway to Global Trade from India**
 
-Currently, two official plugins are available:
+Salt Path Pvt. Ltd. is a dynamic export company based in India, dedicated to connecting Indian craftsmanship, agricultural richness, and ethical manufacturing with the world. From traditional handwoven products to premium food exports, we ensure quality, authenticity, and timely delivery every time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Who We Are
 
-## Expanding the ESLint configuration
+At Salt Path, we believe every product has a story. Founded with a passion for bridging cultures, we take pride in showcasing the finest Indian products globally. Our team is committed to sustainable practices, seamless logistics, and long-term partnerships.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 What We Export
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+We specialize in a curated selection of high-quality Indian products:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🥭 Food & Agricultural Products
+- Mango, Guava, Banana, Aloe Vera
+- Makhana (Fox Nuts), Ayurvedic Herbs
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🏡 Home & Lifestyle
+- Hand Towels, Bedsheets, Quilts, Rugs, Bathrobes
+- Candle Holders, Coasters, Table Runners, Bamboo Mats
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### 🎁 Handicrafts & Decor
+- Artificial Flowers, Urli Bowls, Temple Bells, Pooja Thalis
+
+### 👗 Apparel & Accessories
+- Shawls, Dupattas, Scarves, Fabric & Wooden Jewellery
+
+### 🖊️ Stationery & Miscellaneous
+- Office Stationery, Cow Dung Products, Seasonal Decor
+
+## ✅ Why Choose Us
+
+- 🌱 Ethical & Sustainable Sourcing
+- 🚢 Reliable Global Shipping & Logistics
+- 🔍 Strict Quality Control
+- 🤝 Transparent Partnerships
+
+## 📍 Headquarters
+
+**Salt Path Pvt. Ltd.**  
+[Nashik], [Maharashtra], India  
+📧 contact@saltpaths.com  
+🌐 www.saltpaths.com
+
+## 🤝 Let’s Connect
+
+Whether you're a retailer, wholesaler, or distributor, we’re ready to be your trusted partner in global trade. Get in touch to explore our product catalog and collaboration opportunities.
+
+---
+
+> *Salt Path — Where every shipment celebrates Indian culture, craftsmanship, and quality.*
+
