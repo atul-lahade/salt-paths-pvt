@@ -43,8 +43,10 @@ export default function Contact() {
   }
 
   return (
-    <section className="relative z-10 overflow-hidden pt-4 pb-8 dark:bg-dark lg:p-16 bg-cover bg-center"
-    style={{ backgroundImage: `url(${contactUs})` }}>
+    <section
+      className="relative z-10 overflow-hidden pt-4 pb-8 dark:bg-dark lg:p-16 bg-cover bg-center"
+      style={{ backgroundImage: `url(${contactUs})` }}
+    >
       <div className="container">
         <div className="flex flex-wrap lg:justify-between">
           <div className="w-full px-4 lg:w-1/2 xl:w-6/12">

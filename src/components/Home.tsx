@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="flex flex-col font-poppins min-h-screen">
       <VideoPlayer />
-      <WhatWeDo/>
-      <OurProducts/>
+      <WhatWeDo />
+      <OurProducts />
       <Testimonials />
     </div>
   );

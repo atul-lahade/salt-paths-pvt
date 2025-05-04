@@ -20,7 +20,7 @@ export default function About() {
           <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
               <div className="w-full flex-col justify-start lg:items-start items-center gap-2 flex">
-                <h2 className="text-[#40545a] text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                <h2 className="text-[#3b65a8] text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                   From Our Land to Your Hands – The Journey of Trust
                 </h2>
                 <p className="text-gray-500 text-lg font-normal leading-relaxed lg:text-start text-center">
@@ -35,7 +35,7 @@ export default function About() {
                 </p>
               </div>
               <a
-                href="contact"
+                href="/contact"
                 className="px-6 py-3 bg-[#6a838f] hover:bg-[#3a5662] text-white font-medium rounded-lg shadow-md transition duration-300"
               >
                 Get Started
@@ -59,7 +59,7 @@ export default function About() {
                 alt="Mission image"
               />
               <div className="text-center lg:text-left">
-                <h3 className="text-2xl font-bold text-[#40545a] mb-3">
+                <h3 className="text-2xl font-bold text-[#3b65a8] mb-3">
                   OUR MISSION
                 </h3>
                 <p className="text-gray-500 text-lg leading-relaxed">
@@ -76,7 +76,7 @@ export default function About() {
                 alt="Vision image"
               />
               <div className="text-center lg:text-left">
-                <h3 className="text-2xl font-bold text-[#40545a] mb-3">
+                <h3 className="text-2xl font-bold text-[#3b65a8] mb-3">
                   OUR VISION
                 </h3>
                 <p className="text-gray-500 text-lg leading-relaxed">
@@ -100,7 +100,7 @@ export default function About() {
               src={valuesImg}
               alt="Leaf-heading"
             />
-            <h2 className="text-3xl md:text-4xl font-bold text-[#40545a]">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#3b65a8]">
               Values
             </h2>
             <div className="mt-2 flex justify-center">
@@ -118,7 +118,7 @@ export default function About() {
                 src={qualityImg}
                 alt="Quality assurance"
               />
-              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#40545a]">
+              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#3b65a8]">
                 Best Quality Services
               </h4>
               <p className="text-gray-500 text-sm md:text-base">
@@ -138,7 +138,7 @@ export default function About() {
                 src={reliabilityImg}
                 alt="Reliability"
               />
-              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#40545a]">
+              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#3b65a8]">
                 Vast Experience in Food Trading
               </h4>
               <p className="text-gray-500 text-sm md:text-base">
@@ -158,7 +158,7 @@ export default function About() {
                 src={certifiedImg}
                 alt="Certified Services"
               />
-              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#40545a]">
+              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#3b65a8]">
                 Trusted & Legally Approved Certified Services
               </h4>
               <p className="text-gray-500 text-sm md:text-base">
@@ -178,7 +178,7 @@ export default function About() {
                 src={commitmentImg}
                 alt="Commitment"
               />
-              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#40545a]">
+              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#3b65a8]">
                 Commitment & Time Adherence
               </h4>
               <p className="text-gray-500 text-sm md:text-base">
@@ -197,7 +197,7 @@ export default function About() {
                 src={innovationImg}
                 alt="Innovation"
               />
-              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#40545a]">
+              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#3b65a8]">
                 Innovation in Food & Trade
               </h4>
               <p className="text-gray-500 text-sm md:text-base">
@@ -217,7 +217,7 @@ export default function About() {
                 src={sustainabilityImg}
                 alt="Sustainability"
               />
-              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#40545a]">
+              <h4 className="text-xl md:text-2xl font-bold mb-3 text-[#3b65a8]">
                 Sustainability & Ethical Sourcing
               </h4>
               <p className="text-gray-500 text-sm md:text-base">
@@ -243,7 +243,7 @@ export default function About() {
                 src={whoWeAreImg}
                 alt="Leaf-heading"
               />
-              <h2 className="text-4xl font-bold text-[#25373d]">Who We Are?</h2>
+              <h2 className="text-4xl font-bold text-[#3b65a8]">Who We Are?</h2>
               <div className="mt-2 flex justify-center">
                 <hr
                   aria-hidden="true"
@@ -270,7 +270,7 @@ export default function About() {
                 src={whatWeDoImg}
                 alt="Leaf-heading"
               />
-              <h2 className="text-4xl font-bold text-[#25373d]">What We Do?</h2>
+              <h2 className="text-4xl font-bold text-[#3b65a8]">What We Do?</h2>
               <div className="mt-2 flex justify-center">
                 <hr
                   aria-hidden="true"

@@ -3,14 +3,14 @@ import globeImg from "../assets/img/globe.jpg";
 export default function WhatWeDo() {
   return (
     <section className="overflow-hidden pt-12 dark:bg-dark bg-cover bg-center">
-      <div className="container mx-auto ">
+      <div className="container mx-auto">
         <div className="flex flex-col justify-center items-center mb-8">
-          <h1 className="text-3xl xl:text-4xl font-semibold leading-7 xl:leading-9 text-gray-800">
-          What We Do!
+          <h1 className="text-3xl xl:text-4xl leading-7 xl:leading-9 font-bold text-[#3b65a8]">
+            What We Do!
           </h1>
         </div>
-        <div className="flex flex-wrap items-center bg-black text-white">
-          <div className="px-4 lg:w-6/12">
+        <div className="flex flex-wrap items-center bg-black text-white m-8">
+          <div className="w-full px-4 lg:w-6/12">
             <div className="relative mb-12 lg:mb-0">
               <div className="mx-auto max-w-[430px]">
                 <img src={globeImg} alt="about image" className="w-full" />

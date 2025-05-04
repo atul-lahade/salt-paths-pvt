@@ -5,7 +5,7 @@ export default function Footer() {
         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
           <div className="px-5 py-2">
             <a
-              href="#"
+              href="/"
               className="text-base leading-6 text-gray-700 hover:text-gray-900"
             >
               Home
@@ -13,7 +13,7 @@ export default function Footer() {
           </div>
           <div className="px-5 py-2">
             <a
-              href="#"
+              href="/about"
               className="text-base leading-6 text-gray-700 hover:text-gray-900"
             >
               About Us
@@ -21,7 +21,15 @@ export default function Footer() {
           </div>
           <div className="px-5 py-2">
             <a
-              href="#"
+              href="/products"
+              className="text-base leading-6 text-gray-700 hover:text-gray-900"
+            >
+              Products
+            </a>
+          </div>
+          <div className="px-5 py-2">
+            <a
+              href="/contact"
               className="text-base leading-6 text-gray-700 hover:text-gray-900"
             >
               Contact Us
@@ -29,7 +37,11 @@ export default function Footer() {
           </div>
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
-          <a href="https://www.facebook.com/share/16H91k2f3x/?mibextid=wwXIfr" target="_blank" className="text-gray-400 hover:text-gray-700">
+          <a
+            href="https://www.facebook.com/share/16H91k2f3x/?mibextid=wwXIfr"
+            target="_blank"
+            className="text-gray-400 hover:text-gray-700"
+          >
             <span className="sr-only">Facebook</span>
             <svg
               className="w-6 h-6"
@@ -44,7 +56,11 @@ export default function Footer() {
               ></path>
             </svg>
           </a>
-          <a href="https://www.instagram.com/eximsaltpath?igsh=MXB5dnZldzdudXNz" target="_blank" className="text-gray-400 hover:text-gray-700">
+          <a
+            href="https://www.instagram.com/eximsaltpath?igsh=MXB5dnZldzdudXNz"
+            target="_blank"
+            className="text-gray-400 hover:text-gray-700"
+          >
             <span className="sr-only">Instagram</span>
             <svg
               className="w-6 h-6"
@@ -59,7 +75,7 @@ export default function Footer() {
               ></path>
             </svg>
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-700">
+          <a href="#" className="text-gray-400 hover:text-gray-700 hidden">
             <span className="sr-only">Twitter</span>
             <svg
               className="w-6 h-6"

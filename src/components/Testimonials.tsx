@@ -4,7 +4,7 @@ export default function Testimonials() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <div className="text-center">
-            <h2 className="mt-4 text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">
+            <h2 className="mt-4 text-3xl font-bold text-[#3b65a8] sm:text-4xl xl:text-5xl font-pj">
               What Our Happy Clients Say About Us
             </h2>
           </div>

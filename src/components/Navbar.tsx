@@ -34,7 +34,7 @@ export default function Navbar() {
               </li>
               <li className="p-2 sm:p-3 xl:p-4">
                 <a
-                  href="about"
+                  href="/about"
                   className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 >
                   <span className="text-lg">About Us</span>
@@ -46,63 +46,11 @@ export default function Navbar() {
                   className="flex items-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 >
                   <span className="text-lg">Products</span>
-                  <svg
-                    className="h-3 opacity-30 ml-2 svg-inline--fa fa-chevron-down fa-w-14 fa-7x transition-transform duration-300 group-open:rotate-180"
-                    aria-hidden="true"
-                    focusable="false"
-                    data-prefix="far"
-                    data-icon="chevron-down"
-                    role="img"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"
-                    ></path>
-                  </svg>
                 </a>
-                <ul
-                  id="menu"
-                  className="absolute left-0 w-40 bg-white shadow-lg opacity-0 invisible group-open:opacity-100 group-open:visible transition duration-300 space-y-2"
-                >
-                  <li>
-                    <a
-                      href=""
-                      className="block px-4 py-2 text-base tracking-wider text-gray-900 hover:bg-gray-200 hover:cursor-pointer hover:rounded-t-xl"
-                    >
-                      Frozen Food
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href=""
-                      className="block px-4 py-2 text-base tracking-wider text-gray-900 hover:bg-gray-200 hover:cursor-pointer"
-                    >
-                      Home Décor
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href=""
-                      className="block px-4 py-2 text-base tracking-wider text-gray-900 hover:bg-gray-200 hover:cursor-pointer"
-                    >
-                      Handicrafts
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href=""
-                      className="block px-4 py-2 text-base tracking-wider text-gray-900 hover:bg-gray-200 hover:cursor-pointer"
-                    >
-                      Miscellaneous
-                    </a>
-                  </li>
-                </ul>
               </li>
               <li className="p-2 sm:p-3 xl:p-4">
                 <a
-                  href="contact"
+                  href="/contact"
                   className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                 >
                   <span className="text-lg">Contact Us</span>
@@ -173,34 +121,19 @@ export default function Navbar() {
             Home
           </a>
           <a
-            href="about"
+            href="/about"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
           >
             About Us
           </a>
           <a
-            href=""
+            href="/products"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
           >
             Products
-            <svg
-              className="h-3 opacity-30 ml-2 svg-inline--fa fa-chevron-down fa-w-14 fa-7x"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="far"
-              data-icon="chevron-down"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-            >
-              <path
-                fill="currentColor"
-                d="M441.9 167.3l-19.8-19.8c-4.7-4.7-12.3-4.7-17 0L224 328.2 42.9 147.5c-4.7-4.7-12.3-4.7-17 0L6.1 167.3c-4.7 4.7-4.7 12.3 0 17l209.4 209.4c4.7 4.7 12.3 4.7 17 0l209.4-209.4c4.7-4.7 4.7-12.3 0-17z"
-              ></path>
-            </svg>
           </a>
           <a
-            href="contact"
+            href="/contact"
             className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
           >
             Contact Us
