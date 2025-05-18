@@ -14,7 +14,7 @@ export default function OurProducts() {
             </h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-x-8 w-full">
-            <a  href="/products/frozen-food" className="cursor-pointer">
+            <a href="/products/frozen-food" className="cursor-pointer">
               <div className="relative group flex justify-center items-center h-full w-full">
                 <img
                   className="object-center object-cover h-full w-full"
